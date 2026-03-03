@@ -100,7 +100,7 @@ Expected output:
 ```
 Valid rows:   96
 Invalid rows: 4
-Saved N rows → gcs/yellow/2024/01/2024-01-01.parquet
+Saved N rows → gcs/2024/01/2024-01-01.parquet
 ...
 ```
 
@@ -197,3 +197,4 @@ dim_vendor ────┤
 dim_location ──┼──→ fact_trips
 dim_payment ───┘
 ```
+
