@@ -1,0 +1,28 @@
+[0m10:41:24.029973 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 10:41:24.049673 | 264bf5a4-e95d-471a-9c11-94f148ad1ad0 ==============================
+[0m10:41:24.049673 [info ] [MainThread]: Running with dbt=1.11.6
+[0m10:41:24.050280 [debug] [MainThread]: running dbt with arguments {'log_path': 'logs', 'indirect_selection': 'eager', 'debug': 'False', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init dbt_project', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'empty': 'None', 'write_json': 'True', 'static_parser': 'True', 'use_experimental_parser': 'False', 'printer_width': '80', 'use_colors': 'True', 'warn_error': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'profiles_dir': '/Users/anandhapadmanabhan/.dbt', 'no_print': 'None', 'log_cache_events': 'False'}
+[0m10:41:24.060718 [debug] [MainThread]: Starter project path: /Users/anandhapadmanabhan/nyc_taxi_pipeline/venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m10:41:24.065727 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:41:24.066070 [info ] [MainThread]: Setting up your profile.
+[0m10:41:31.065300 [info ] [MainThread]: Profile dbt_project written to /Users/anandhapadmanabhan/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m10:41:31.084177 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 7.080379, "process_in_blocks": "0", "process_kernel_time": 0.1663, "process_mem_max_rss": "113672192", "process_out_blocks": "0", "process_user_time": 0.707772}
+[0m10:41:31.084597 [debug] [MainThread]: Command `dbt init` succeeded at 10:41:31.084511 after 7.08 seconds
+[0m10:41:31.084821 [debug] [MainThread]: Flushing usage events
